@@ -1,2 +1,2 @@
 {{ config(materialized='view') }}
-select *  from `music_db.invoice_line`
+select *  from {{source('music_db','invoice_line')}}

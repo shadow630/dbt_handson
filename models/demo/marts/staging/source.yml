@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: music_db
+    database: storied-landing-380119
+    schema: music_db
+    tables:
+      - name: customer
+      - name: invoice
+      - name: invoice_line
+      - name: genre
+      - name: track

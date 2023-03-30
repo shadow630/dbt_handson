@@ -1,2 +1,2 @@
 {{ config(materialized='view') }}
-select * from `storied-landing-380119.music_db.genre`
+select * from  {{source('music_db','genre')}}
